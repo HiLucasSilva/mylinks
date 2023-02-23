@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;900&family=Nunito:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #030b18;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section {
+    padding: 45px;
+    background-color: rgb(35, 56, 116);
+    width: 500px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px 15px 20px rgba(31, 95, 179, 0.4);
+}
+
+h1 {
+    font-family: 'Nunito';
+    color: #f9fbfd;
+    font-size: 1.35rem;
+    display: flex;
+    height: 50px
+}
+
+h3 {
+    font-family: 'Nunito';
+    color: #f9fbfd;
+    font-size: 1.35rem;
+    display: flex;
+    flex-direction: column;
+    height: 50px
+}
+
+main {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    gap: 25px;
+}
+
+main a {
+    font-family: 'Nunito';
+    background:rgba(31, 95, 179, 0.4);
+    padding: 17px 0;
+    text-decoration: none;
+    color: #f9fbfd;
+    border-radius: 5px;
+    box-shadow: 10px 10px #369bd6;
+    
+}
+
+main a:hover {
+    opacity: .85;
+}
+
